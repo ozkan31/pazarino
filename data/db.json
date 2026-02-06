@@ -1,0 +1,75 @@
+{
+  "runtimeConfig": {
+    "activeThemeId": "classic"
+  },
+  "themes": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "tokens": {
+        "background": "#f8fafc",
+        "surface": "#ffffff",
+        "text": "#0f172a",
+        "muted": "#475569",
+        "primary": "#2563eb",
+        "danger": "#dc2626"
+      }
+    },
+    {
+      "id": "sunset",
+      "name": "Sunset",
+      "tokens": {
+        "background": "#fff7ed",
+        "surface": "#ffffff",
+        "text": "#7c2d12",
+        "muted": "#9a3412",
+        "primary": "#ea580c",
+        "danger": "#b91c1c"
+      }
+    }
+  ],
+  "categories": [
+    { "id": "c1", "name": "Electronics", "slug": "electronics", "parentId": null },
+    { "id": "c2", "name": "Laptops", "slug": "laptops", "parentId": "c1" },
+    { "id": "c3", "name": "Accessories", "slug": "accessories", "parentId": "c1" }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Pro Laptop 14",
+      "categorySlug": "laptops",
+      "price": 42999,
+      "stock": 11,
+      "images": ["/window.svg", "/globe.svg"],
+      "video": "https://example.com/laptop-demo",
+      "variants": ["8/256", "16/512"]
+    },
+    {
+      "id": "p2",
+      "name": "Wireless Mouse",
+      "categorySlug": "accessories",
+      "price": 999,
+      "stock": 100,
+      "images": ["/file.svg"],
+      "video": "https://example.com/mouse-demo",
+      "variants": ["black", "white"]
+    }
+  ],
+  "orders": [
+    { "id": "o1", "status": "paid", "total": 43998, "createdAt": "2026-01-05" }
+  ],
+  "reviews": [
+    { "id": "r1", "type": "review", "content": "Great product", "status": "pending" },
+    { "id": "q1", "type": "question", "content": "Is this waterproof?", "status": "pending" }
+  ],
+  "ads": [
+    { "id": "a1", "title": "Winter Sale", "slot": "homepage-hero", "active": true }
+  ],
+  "imports": [
+    { "id": "i1", "filename": "products-jan.csv", "status": "processing", "progress": 62 }
+  ],
+  "cart": [
+    { "productId": "p1", "quantity": 1, "variant": "16/512" }
+  ],
+  "events": []
+}
