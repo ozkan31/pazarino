@@ -1,0 +1,18 @@
+{
+  "feature_flags": [
+    { "key": "new_checkout", "enabled": true, "description": "Yeni ödeme adımlarını açar." },
+    { "key": "consent_banner", "enabled": true, "description": "KVKK/çerez banner'ını açar." }
+  ],
+  "maintenance_mode": {
+    "enabled": false,
+    "message": "Sistem bakımda. Lütfen daha sonra tekrar deneyin.",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  "system_settings": [
+    { "key": "site_name", "value": "Pazarino" },
+    { "key": "support_email", "value": "support@pazarino.local" }
+  ],
+  "consents": [],
+  "logs": [],
+  "backup_reports": []
+}
